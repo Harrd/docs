@@ -1,0 +1,64 @@
+
+                                  C REFERENCE
+  ------------------------------------------------------------------------------
+
+  ABOUT THIS TUTORIAL
+  ===================
+  This tutorial is written in a fully plain text.
+  It loads very fast, easily searchable, and everything about this reference 
+  is inside this one file. Sorry, no crazy 3D graphics or anything.
+  It is very easy to edit, you do not need a special word processor.
+
+
+  COMMON DATA TYPES
+  =================
+    name:         size(in bytes):
+  --------------------------------
+  | char        |  1             |
+  | short       |  2             |
+  | int         |  4             |
+  | long        |  4             |
+  | long long   |  4             |
+  | float       |  4             |
+  | double      |  8             |
+  | long double |  8             |
+  --------------------------------
+
+
+
+  HELLO WORLD EXAMPLE
+  ===================
+  ```
+  /** 
+   * This is a program that prints out a string "Hello World"
+   * hello.c
+   */
+  #include <stdio.h>
+
+  int main() {
+    char* my_string = "World";
+    printf("Hello %s", my_string);
+    return 0;
+  }
+  ```
+
+  To compile and run this program, 
+  if you are on a UNIX system and have gcc installed:
+  
+  $ gcc -o hello hello.c
+  $ ./hello
+  Hello World
+
+  USING make 
+  ==========
+
+  // TODO
+
+  BRANCHING
+  =========
+  ```
+  /**
+   * branching.c
+   * This program demonstrates using a simple if/else statement.
+   */
+  ```
