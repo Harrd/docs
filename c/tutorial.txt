@@ -102,10 +102,10 @@
   | * branching.c                                                              |
   | * This program demonstrates using a simple if/else statement.              |
   | */                                                                         |
-  |                                                                            |
-  |                                                                            |
-  |                                                                            |
-  |                                                                            |
+  |~                                                                           |
+  |~                                                                           |
+  |~                                                                           |
+  |~                                                                           |
   |~                                                                           |
   |~                                                                           |
   |~                                                                           |
